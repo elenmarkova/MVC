@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>CEO Analyzer</h1>
+    @using (@Html.BeginForm(""))
+    {
+        <p>URL to analyze</p>
+        <p>@Html.TextBox("url") <button type="submit">Analyze</button></p>
+    }
+</div>
+
